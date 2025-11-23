@@ -1,0 +1,62 @@
+/* Colores y Tipografía Básica */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Fondo muy claro */
+    color: #000000; /* Texto principal oscuro */
+}
+
+/* Paleta de Colores Neutros: Gris Oscuro/Acero */
+.navbar-dark, .bg-dark {
+    background-color: #212529 !important; /* Charcoal Oscuro (Para el Navbar y Carrusel) */
+}
+
+/* Color Principal (Gris Acero Oscuro) */
+.btn-primary, .bg-primary {
+    background-color: #5a6a7a !important; /* Gris Acero (Para botones y bordes) */
+    border-color: #5a6a7a !important;
+}
+
+.btn-primary:hover {
+    background-color: #4a5765 !important;
+    border-color: #4a5765 !important;
+}
+
+/* Nuevo Color para Encabezado de la Tarjeta (Gris medio/azulado) */
+.bg-secondary {
+    background-color: #4a5a6a !important; 
+}
+
+/* LOGO: Estilo para el logo en el navbar (50px) */
+.navbar-brand img {
+    height:80px; /* Tamaño del logo aumentado */
+    margin-right: 10px;
+}
+
+/* MAPA: Contenedor para el iframe del mapa */
+.map-container {
+    height: 450px; /* Altura definida para el mapa */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* CARRUSEL: Estilo para hacer las imágenes responsivas y mantener una altura visual */
+.carousel-item img {
+    width: 100%;
+    height: 400px; /* Altura fija para el carrusel */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
+}
+
+/* ---------------------------------------------------- */
+/* --- SOLUCIÓN FINAL: FOTOS ESTÁTICAS UNIFORMES --- */
+/* Esta regla fuerza que las imágenes estáticas se vean del mismo tamaño */
+.img-evidencia {
+    width: 100% !important; 
+    height: 180px !important; /* Altura fija para todas las fotos */
+    object-fit: cover !important; /* Recorta la imagen para llenar el área */
+}
+/* ---------------------------------------------------- */
+
+/* Estilo del pie de página */
+footer {
+    border-top: 3px solid #5a6a7a;
+}
